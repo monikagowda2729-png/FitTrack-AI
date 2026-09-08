@@ -159,7 +159,7 @@ Activity data:
 """
     try:
         response = client.interactions.create(
-            model="gemini-3.8-flash",
+           model="gemini-3.1-flash-lite",
             input=prompt,
         )
         return response.output_text
